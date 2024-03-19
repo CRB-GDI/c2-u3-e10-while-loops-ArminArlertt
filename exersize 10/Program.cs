@@ -25,7 +25,7 @@ namespace exersize_10
             choice = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
-            while (choice != 5)
+            while (choice != 4)
             {
                 if (choice == 1) 
                 { 
@@ -81,6 +81,7 @@ namespace exersize_10
 
                 if (choice == 4)
                     Console.WriteLine("Quit");
+                
             }
         }
     }
